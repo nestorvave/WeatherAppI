@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Glegoo', serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(../img/nubes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.container{
+    align-items: center;
+    display: flex;
+    height: 99vh;
+    justify-content: center;
+    width: 100%;
+}
+.main-container{
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    border: 2px solid black;
+    height: 80%;
+    width: 80%;
+    padding-bottom: 25px;
+}
+.search-form{
+    align-items: center;
+    display: flex;
+    height: 7%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 90%;
+}
+input[type=text]{
+    background-color: rgba(240, 240, 240, 0.157);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 5px #ccc;
+    color: white;
+    font-size: 16px;
+    height: 75%;
+    padding-left: 22px;
+    width: 90%;
+
+}
+input[type=text]:hover{
+    box-shadow: 0px 0px 15px #ccc;
+
+}
+button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    height: 75%;
+    width: 8%;
+
+}
+button:hover{
+    box-shadow: 0px 0px 15px #ccc;
+    border-radius: 20px;
+
+}
+.icon-search{
+    width: 100%;
+    height: 100%;
+   
+}
+.info-top{
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+.location,
+.temperature{
+    height: 98%;
+    width: 50%;
+
+}
+.location{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.temperature{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.icon-temperature{
+    margin: 0;
+    width: 90%;
+    margin-left: 20px;
+}
+.city{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 12px;
+
+}
+
+.date{
+    color: #ccc;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-left: 5%;
+
+}
+.current-temperature{
+    height: 22%;
+    position: relative;
+    width: 70%;
+    padding-bottom: 10px;
+}
+.current-temperature > h2{
+    color: white;
+    font-size: 56px;
+    text-align: center;
+
+}
+.current-temperature > span{
+    color: white;
+    font-size: 20px;
+    left: 70%;
+    position: absolute;
+    top: 0;
+}
+.description{
+    color: #ccc;
+    font-size: 15px;
+
+}
+
+.max-min{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 800;
+    height: 20%;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.max-min img{
+    height: 20px;
+    width: 20px;
+}
+.info-buttom{
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+
+
+}
+.info-buttom h3{
+    color: white;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 40px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.stat{
+    height: 25%;
+    width: 85%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.stat p{
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 6px ;
+}
+.stat img{
+    width: 15px;
+    height: 14px;
+    margin-right: 6px ;
+}
+.stat span{
+    color: #ccc;
+    font-size: 12px;
+
+}
+.none{
+    display: none;
+}
+.show{
+    display: block;
+}

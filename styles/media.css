@@ -1,0 +1,74 @@
+@media (min-width: 660px) {
+    .main-container{
+        border: 2px solid black;
+        height: 620px;
+        width: 620px;
+        padding-bottom: 25px;
+    }
+    .icon-temperature{
+        margin: 0;
+        width: 160px;
+        margin-left: 20px;
+    }
+    .city{
+        font-size: 25px;
+    }
+    .date{
+        font-size: 16px;
+    }
+     .temperature {
+        height: 104%;
+        justify-content: space-evenly;
+    }
+    
+    .description {
+        margin-top: 5px;
+        color: #ccc;
+        font-size: 22px;
+    }
+    .current-temperature > h2 {
+        font-size: 65px;
+        padding-bottom: 10px !important;
+
+    }
+    .current-temperature > span {
+        font-size: 32px;
+
+    }
+    .max-min {
+        justify-content: space-around;
+        width: 50%;
+    }
+    .stat{
+        height: 30%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+    .stats {
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .stat p {
+        color: white;
+        font-size: 17px;
+        text-align: left;
+        margin-right: 6px;
+    }
+    .stat span {
+  
+        font-size: 17px;
+    }
+    .none{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+    
+
+}

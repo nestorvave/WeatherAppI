@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo:wght@400">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-container">
+            <form class="search-form">
+                <input type="text" placeholder="Insert your city " id="city">
+                <button type="submit" id="search" value="Search">
+                    <img class="icon-search" src="svg/001-loupe.svg" alt="search">
+                </button>
+            </form>
+            <section class="info-top">
+                <div class="location">
+                    <img class="icon-temperature" alt="" src="">
+                    <h3 class="city"></h3>
+                    <p class="date"></p>
+                </div>
+                <div class="temperature">
+                    <div class="current-temperature">
+                        <h2 class="tempValue"></h2>
+                        <span class="none">°C</span>
+                    </div>
+
+
+                    <p class="description des"></p>
+                    <div class="max-min">
+
+                        <img src="svg/003-temperatura-alta.svg" alt="">
+                        <p class="tempMax"></p>
+                        <p>/</p>
+                        <p class="tempMin"></p>
+                        <img src="svg/004-control-de-temperatura.svg" alt="">
+
+                    </div>
+                </div>
+            </section>
+            <div class="info-buttom">
+                <h3>Details</h3>
+                <div class="stats">
+
+                    <div class="stat"><img class="icon-search" src="svg/005-nervios.svg" alt="search">
+                        <p>Feels Like</p><span class="feels-like"></span>
+                    </div>
+                    <div class="stat"><img class="icon-search" src="svg/002-viento.svg" alt="search">
+                        <p>Wind </p><span class="wind"></span>
+                    </div>
+                    <div class="stat"><img class="icon-search" src="svg/006-presin.svg" alt="search">
+                        <p>Pressure</p><span class="pressureValue">
+                            
+                        </span>
+                    </div>
+                    <div class="stat"><img class="icon-search" src="svg/001-humedad.svg" alt="search">
+                        <p>Humidity</p><span class="humidityValue" ></span>
+                    </div>
+                    <div class="stat"><img class="icon-search" src="svg/007-visibilidad.svg" alt="search">
+                        <p>Visibility</p><span class="visibilityValue"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+
+</html>
